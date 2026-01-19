@@ -2,7 +2,8 @@
 export const EXPERT_NAME = "Elavate Marketing";
 export const EXPERT_HANDLE = "@elevatemarketing.ofc";
 export const INSTAGRAM_URL = "https://www.instagram.com/elevatemarketing.ofc/";
-export const HERO_IMAGE = "https://i.imgur.com/ZL6fXk8.png";
+export const HERO_IMAGE = "https://i.imgur.com/Yfzrk50.jpeg"; // Foto da dupla (Heroes)
+export const ALT_HERO_IMAGE = "https://i.imgur.com/ZL6fXk8.png";
 
 export const WHATSAPP_NATHAN = "https://api.whatsapp.com/send/?phone=5513976055858&text&type=phone_number&app_absent=0";
 export const WHATSAPP_MISAEL = "https://api.whatsapp.com/send/?phone=5513978245122&type=phone_number&app_absent=0&utm_source=ig";
