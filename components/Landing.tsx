@@ -137,7 +137,7 @@ const Landing: React.FC = () => {
             <div className="w-16 h-px bg-[#d4b67b]/30 mx-auto"></div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-12 items-center justify-center max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 items-center justify-center max-w-6xl mx-auto">
             {TESTIMONIAL_VIDEOS.map((videoUrl, index) => (
               <div key={index} className="relative group">
                 <div className="absolute -inset-2 bg-[#d4b67b]/5 rounded-[2.5rem] blur-2xl opacity-0 group-hover:opacity-100 transition duration-1000"></div>

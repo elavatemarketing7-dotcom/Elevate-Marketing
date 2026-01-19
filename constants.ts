@@ -9,7 +9,8 @@ export const WHATSAPP_MISAEL = "https://api.whatsapp.com/send/?phone=55139782451
 
 export const TESTIMONIAL_VIDEOS = [
   "https://i.imgur.com/6SaQIBo.mp4",
-  "https://i.imgur.com/afG9RDL.mp4"
+  "https://i.imgur.com/afG9RDL.mp4",
+  "https://i.imgur.com/mmAhTbz.mp4"
 ];
 
 export const GALLERY_IMAGES = [
