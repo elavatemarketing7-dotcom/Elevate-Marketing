@@ -7,7 +7,8 @@ import {
   WHATSAPP_NATHAN,
   WHATSAPP_MISAEL,
   INSTAGRAM_URL,
-  EXPERT_HANDLE
+  EXPERT_HANDLE,
+  TESTIMONIAL_VIDEOS
 } from '../constants';
 import Gallery from './Gallery';
 
@@ -123,6 +124,42 @@ const Landing: React.FC = () => {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Video Testimonials Section */}
+      <section className="px-6 sm:px-8 py-20 bg-[#080808] relative">
+        <div className="max-w-6xl mx-auto space-y-12">
+          <div className="text-center space-y-4">
+            <span className="text-[#d4b67b] text-[9px] font-bold uppercase tracking-[0.5em]">Depoimentos</span>
+            <h2 className="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tighter">Resultados que <span className="gold-gradient">Falam</span></h2>
+            <div className="w-16 h-px bg-[#d4b67b]/30 mx-auto"></div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-12 items-center justify-center max-w-4xl mx-auto">
+            {TESTIMONIAL_VIDEOS.map((videoUrl, index) => (
+              <div key={index} className="relative group">
+                <div className="absolute -inset-2 bg-[#d4b67b]/5 rounded-[2.5rem] blur-2xl opacity-0 group-hover:opacity-100 transition duration-1000"></div>
+                <div className="relative aspect-[9/16] rounded-[2rem] overflow-hidden border border-[#d4b67b]/20 premium-shadow bg-black">
+                  <video 
+                    src={videoUrl} 
+                    className="w-full h-full object-cover"
+                    controls
+                    playsInline
+                    loop
+                    muted
+                  />
+                </div>
+                <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 px-4 py-2 bg-black/80 backdrop-blur-md border border-[#d4b67b]/30 rounded-full">
+                  <span className="text-[#d4b67b] text-[8px] font-bold uppercase tracking-widest whitespace-nowrap">Caso de Sucesso {index + 1}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="pt-10 flex justify-center">
+            <DualCTA className="max-w-md" />
           </div>
         </div>
       </section>

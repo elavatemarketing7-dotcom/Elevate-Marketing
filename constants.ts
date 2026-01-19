@@ -7,6 +7,11 @@ export const HERO_IMAGE = "https://i.imgur.com/ZL6fXk8.png";
 export const WHATSAPP_NATHAN = "https://api.whatsapp.com/send/?phone=5513976055858&text&type=phone_number&app_absent=0";
 export const WHATSAPP_MISAEL = "https://api.whatsapp.com/send/?phone=5513978245122&type=phone_number&app_absent=0&utm_source=ig";
 
+export const TESTIMONIAL_VIDEOS = [
+  "https://i.imgur.com/6SaQIBo.mp4",
+  "https://i.imgur.com/afG9RDL.mp4"
+];
+
 export const GALLERY_IMAGES = [
   "https://i.imgur.com/TbKeWpe.png",
   "https://i.imgur.com/KALkmh2.png",
