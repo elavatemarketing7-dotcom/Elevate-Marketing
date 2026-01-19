@@ -62,7 +62,7 @@ const Landing: React.FC = () => {
           
           <div className="space-y-4 sm:space-y-6">
             <h1 className="text-5xl sm:text-8xl font-serif font-bold leading-[0.95] tracking-tighter">
-              Eu sou <span className="gold-gradient">{EXPERT_NAME}</span>.
+              Somos <span className="gold-gradient">{EXPERT_NAME}</span>.
             </h1>
             <p className="text-lg sm:text-3xl text-gray-300 font-light leading-relaxed max-w-2xl">
               Faturamos <span className="text-white font-medium">até 30x mais</span> para clínicas usando apenas tráfego orgânico e inteligência de base.
